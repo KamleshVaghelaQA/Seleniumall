@@ -58,7 +58,7 @@ namespace Seleniumall
         [TearDown]
         public void Stop()
         {
-            driver.Quit();
+           driver.Quit();
             Console.WriteLine("Chrome browser close successfully");
 
         }

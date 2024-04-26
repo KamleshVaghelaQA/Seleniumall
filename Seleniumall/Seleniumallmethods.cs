@@ -27,7 +27,7 @@ namespace Seleniumall
         public static void Scrollscreen(IWebDriver driver)
         {
             IJavaScriptExecutor js = (IJavaScriptExecutor)driver;
-            js.ExecuteScript("window.scrollTo(0,1500);");
+            js.ExecuteScript("window.scrollTo(0,1000);");
         }
       
     }
