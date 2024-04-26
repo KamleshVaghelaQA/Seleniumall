@@ -8,11 +8,9 @@ using System.Threading.Tasks;
 
 namespace Seleniumall
 {
-
     class Seleniumallmethods
     {
        
-
         public static void Entersampletext(IWebElement element, String text)
         {
             element.Clear();
@@ -31,9 +29,6 @@ namespace Seleniumall
             IJavaScriptExecutor js = (IJavaScriptExecutor)driver;
             js.ExecuteScript("window.scrollTo(0,1500);");
         }
-
-
-
       
     }
 }

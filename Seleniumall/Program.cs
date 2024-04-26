@@ -48,11 +48,9 @@ namespace Seleniumall
             Seleniumallmethods.Click(sample);
             Console.WriteLine("Sample page Link open successfull");
 
-         /*   //Scrolldown screen 
+            //Scrolldown screen 
             Seleniumallmethods.Scrollscreen(driver);
             Console.WriteLine("Page scroll successfull");
-         */
-
 
         }
 
@@ -60,7 +58,7 @@ namespace Seleniumall
         [TearDown]
         public void Stop()
         {
-            //driver.Quit();
+            driver.Quit();
             Console.WriteLine("Chrome browser close successfully");
 
         }
